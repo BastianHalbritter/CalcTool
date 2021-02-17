@@ -29,6 +29,7 @@ public class CalcToolTest {
 	public void testSum()
 	{
 		assertEquals(11, calc.sum(5, 6),"Sum two nums should work");
+		assertEquals(51,calc.sum(34, 17),"Sum two nums should work");
 	}
 	
 	/*Test for sub two Integer Numbers*/
